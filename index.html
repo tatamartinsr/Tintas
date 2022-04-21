@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tinturaria</title>
+</head>
+
+<body>
+    <img src="./img/fundo.jpg">
+    <div id="container">
+        <h1>CADASTRO</h1>
+        <div id="info">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+            <div>
+                <label for="m4">Altura da Parede </label>
+                <input type="number" name="alt" id="alt">
+            </div>
+            <div>
+                <label for="m4">Comprimento da Parede </label>
+                <input type="number" name="comp" id="comp">
+            </div>
+            <div>
+                <label for="m4">Escolha a lata da tinta </label>
+                <select name="lata" id="lata">
+                    <option value="1"> 1 L</option>
+                    <option value="3.6">3,6 L</option>
+                    <option value="18">18 L</option>
+                </select>
+            </div>
+            <p>há alguma porta ou janela na</p>
+            <div id="caixa">
+                <P id="P">parede?</p>
+                <div id="box">
+                    <input type="checkbox" id="s">
+                    <p id="sim">Sim</p>
+                </div>
+            </div>
+            <div id="box-btn">
+                <button id="btn">Calcular</button>
+            </div>
+            <script src="./js/script.js"></script>
+</body>
+
+</html>

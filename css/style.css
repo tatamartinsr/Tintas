@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+#container{
+    background-color:  transparent;
+    text-shadow: 2px 3px 3px pink;
+    position: absolute;
+    height: 92vh;
+    width: 400px;
+    margin: 4vh 4vh auto;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+#container h1{
+    margin:  0px 100px;
+    margin-top: 20px;
+}
+#info{
+    margin: 0 40px;
+    font-size: 20pt;
+  /*  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;*/
+}
+#info input{
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#info select{
+    width: 100px;
+    height: 25px;
+}
+#info button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid black ;
+    font-weight: bold;
+}
+#info button:hover{
+    background-color: pink;
+    color: white;
+}
+
+#box{
+    display: flex;
+    width: 70px;
+    height: 22px;
+}
+#P{
+    width: 100PX;
+    font-size: 20pt;
+}
+#sim{
+    margin-left: 10px;
+}
+#caixa{
+    display: flex;
+    font-size: 25px;
+}
